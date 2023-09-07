@@ -1,5 +1,4 @@
-const name = prompt();
 function greeting(user) {
-    console.log(user);
+    console.log(`Привет, ${user}!`)
 }
-greeting(`Привет, ${name}!`);
+greeting(prompt());
